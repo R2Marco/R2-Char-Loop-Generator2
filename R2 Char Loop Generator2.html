@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reemplazo de Caracteres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Reemplazo de Caracteres</h2>
+
+    <form id="reemplazoForm">
+        <label for="inputText">Texto:</label>
+        <textarea id="inputText" placeholder="Ingresa el texto aquí"></textarea>
+
+        <label for="charToReplace">Carácter a reemplazar:</label>
+        <input type="text" id="charToReplace" placeholder="Carácter">
+
+        <label for="replacementNumber">Número de veces a reemplazar:</label>
+        <input type="number" id="replacementNumber" placeholder="Número">
+
+        <button type="button" onclick="realizarReemplazo()">Realizar Reemplazo</button>
+    </form>
+
+    <h3>Resultado:</h3>
+    <textarea id="outputText" readonly></textarea>
+
+    <script src="Codigo.js">
+
+    </script>
+
+</body>
+</html>
